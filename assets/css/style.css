@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container .formato{
+    
+    border: solid 1px;
+    background-color: #ECECEC;
+    padding: 10px;
+}
+
+.container .formato .input{
+    padding-top: 20px;
+}
+
+/* estilo para el botón Agregar */
+.input button{
+    background-color: #197641;
+    color: white;
+    height: 25px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.container .formato .agregados{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+table{
+    padding: 5px 5px 5px 5px;
+    
+}
+
+/* Padding de las celdas */
+td {
+    padding: 5px 5px 5px 10px;
+  
+}
+
+/* padding para encabezados */
+th {
+    padding: 5px 5px;
+  
+}
+
+/* Estilo del botón para borrar, colocado en la función actualizar pantalla de javascript */
+.boton{
+    color: red;
+    border: none;
+    width: 10px;
+    padding-left: 10px;
+}

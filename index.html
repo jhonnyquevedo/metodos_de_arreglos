@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío métodos de arreglos Jhonny</title>
+    <!-- link para estilos de CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="formato">
+            <h1>Todo List</h1>
+            <br>
+            <hr>
+            <div class="input">
+                <label >Nueva tarea </label>
+                <br>
+                <input id="nuevaTarea" type="text" size="60%" style="height: 21px;" />
+                <button id="agregarTarea">Agregar</button>
+            </div>
+            
+            <div class="agregados">
+                <div class="resumen">
+                    <p id="total"></p>
+                    <p id="realizadas"></p>
+                </div>
+                <div class="tareas2">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                        </tr>
+                        <!-- tabla que se llenará con javascript -->
+                        <table id="tareas"></table>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
